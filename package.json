@@ -1,4 +1,5 @@
 {
+  "name": "@bluebase/plugin-maps",
   "config": {
     "react-native-storybook-loader": {
       "searchDir": [
@@ -11,7 +12,8 @@
   },
   "scripts": {
     "storybook-native:start": "bluebase storybook-native:start",
-    "storybook:start": "bluebase storybook:start"
+    "storybook:start": "bluebase storybook:start",
+    "build":"tsc"
   },
   "dependencies": {
     "@blueeast/bluerain-storybook-addon": "^1.1.4",
