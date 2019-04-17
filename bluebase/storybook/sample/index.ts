@@ -1,4 +1,4 @@
-import DummyComponent from './DummyComponent';
+// import DummyComponent from './DummyComponent';
 import { createPlugin } from '@bluebase/core';
 
 export default createPlugin({
@@ -7,6 +7,6 @@ export default createPlugin({
 	name: 'DummyPlugin',
 
 	components: {
-		DummyComponent,
+		// DummyComponent,
 	}
 });

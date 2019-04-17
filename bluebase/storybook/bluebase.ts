@@ -1,22 +1,20 @@
 import { BootOptions } from '@bluebase/core';
 import commonBootOptions from '../common/bluebase';
-import DummyPlugin from './sample';
 import deepmerge from 'deepmerge';
-import MapPlugin from '../../src/index';
 
 // TODO: Only for evaluation, remove this
+import DummyPlugin from './sample';
 
 /**
- * Add your platform specific configs here.
- * We keep all the universal (cross platform) configs in
+ * Add your platform specific configs here. 
+ * We keep all the universal (cross platform) configs in 
  * the common folder, and extend them here.
  */
 const bootOptions: Partial<BootOptions> = {
 
 	plugins: [
 		// TODO: Only for evaluation, remove this
-		DummyPlugin,
-		MapPlugin
+		DummyPlugin
 	],
 	// config: {
 

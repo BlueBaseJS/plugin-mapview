@@ -1,1 +1,0 @@
-declare module '@blueeast/react-native-web-maps'
