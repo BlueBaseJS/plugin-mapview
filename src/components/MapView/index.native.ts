@@ -1,1 +1,1 @@
-export { default as MapView } from 'react-native-web-maps';
+export { default as MapView } from 'react-native-maps';
