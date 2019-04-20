@@ -6,8 +6,8 @@ export default createPlugin({
 		MapMarker: MapView.Marker,
 		MapView,
 	},
-	description: '',
-	key: 'plugin-mapView',
-	name: 'plugin-mapView',
+	description: 'Add maps to BlueBase projects!',
+	key: 'plugin-mapview',
+	name: 'plugin-mapview',
 	version: '1.0.0',
 });
