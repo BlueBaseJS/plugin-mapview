@@ -1,5 +1,5 @@
 {
-  "name": "plugin-mapview",
+  "name": "@bluebase/plugin-mapview",
   "description": "Add maps to BlueBase projects!",
   "author": "BlueEast Team <code@blueeast.com>",
   "version": "0.0.2",
