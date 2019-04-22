@@ -1,5 +1,6 @@
+import { BlueBase, BootOptions, createPlugin } from '@bluebase/core';
 import { MapView } from './components/MapView';
-import { createPlugin, BootOptions, BlueBase } from '@bluebase/core';
+import { Platform } from 'react-native';
 
 declare var window: any;
 declare var document: any;
@@ -22,7 +23,7 @@ export default createPlugin({
 	filters: {
 		'bluebase.boot.end': (bo: BootOptions, _ctx: any, BB: BlueBase) => {
 
-			if (!!window && !!document) {
+			if (Platform.OS === 'web') {
 				const apiKey = BB.Configs.getValue('plugin.mapview.api-key');
 				BB.Configs.setValue('plugin.mapview.api-loaded', false);
 
@@ -34,12 +35,10 @@ export default createPlugin({
 					BB.Logger.error('Google Maps API key is required in MapView plugin.');
 				}
 
-				// window.onload = () => {
 				const s = document.createElement('script');
 				s.type = 'text/javascript';
 				s.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&3.exp&callback=googleMapsOnLoad`;
 				document.body.appendChild(s);
-				// };
 			}
 
 			return bo;
