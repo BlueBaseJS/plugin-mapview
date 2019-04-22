@@ -1062,6 +1062,14 @@
     tslint-react "^3.6.0"
     typescript "^3.1.4"
 
+"@bluebase/components@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@bluebase/components/-/components-5.4.0.tgz#bd8d3ae0807727eb25da66b70eb517aa5d2aabff"
+  integrity sha512-OqYeKLLoOBff+Q6gt74Te98rN0JQR1y2O+foskl/oSqGDV+otO0Z31HclDG4GPZOipzfO+UhsELf6Gx5J87/8Q==
+  dependencies:
+    deepmerge "^3.2.0"
+    tslib "^1.9.3"
+
 "@bluebase/core@^4.0.0-aplha.17":
   version "4.0.0-aplha.20"
   resolved "https://registry.yarnpkg.com/@bluebase/core/-/core-4.0.0-aplha.20.tgz#ba5dcc49c260d1107622da3749a1e597951e4f27"
@@ -13250,7 +13258,7 @@ react-native-maps@^0.24.0:
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.24.2.tgz#19974f967cb0c2e24dab74ca879118e0932571b2"
   integrity sha512-1iNIDikp2dkCG+8DguaEviYZiMSYyvwqYT7pO2YTZvuFRDSc/P9jXMhTUnSh4wNDlEeQ47OJ09l0pwWVBZ7wxg==
 
-"react-native-maps@github:expo/react-native-maps#v0.22.1-exp.0":
+react-native-maps@expo/react-native-maps#v0.22.1-exp.0:
   version "0.22.1"
   resolved "https://codeload.github.com/expo/react-native-maps/tar.gz/e6f98ff7272e5d0a7fe974a41f28593af2d77bb2"
 

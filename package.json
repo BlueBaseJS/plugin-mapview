@@ -17,7 +17,7 @@
   },
   "size-limit": [
     {
-      "limit": "1 KB",
+      "limit": "2 KB",
       "webpack": false,
       "path": "dist/**/*.js"
     }
@@ -76,6 +76,7 @@
     "node": ">=8.9"
   },
   "dependencies": {
+    "@bluebase/components": "^5.4.0",
     "deepmerge": "^3.2.0",
     "expo": "^32.0.0",
     "react": "^16.6.0",
