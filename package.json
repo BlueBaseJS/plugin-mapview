@@ -57,7 +57,9 @@
     "screenshot": "storybook-chrome-screenshot -p 9001 -c ./bluebase/storybook/configs",
     "build-storybook": "build-storybook",
     "web:start": "bluebase web:start",
-    "expo:start": "bluebase expo:start"
+    "expo:start": "bluebase expo:start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "scripts-info": {
     "info": "Display information about the package scripts",
@@ -79,10 +81,11 @@
     "deepmerge": "^3.2.0",
     "expo": "^32.0.0",
     "react": "^16.6.0",
-    "react-native": "^0.57.8",
+    "react-native": "^0.60.0",
     "react-native-maps": "^0.24.0",
     "react-native-web-maps": "^0.2.0",
-    "tslib": "^1.9.3"
+    "tslib": "^1.9.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -135,7 +138,7 @@
     "prettier": "^1.16.4",
     "react": "^16",
     "react-dom": "^16.8.4",
-    "react-native": "^0.57.0",
+    "react-native": "^0.60.0",
     "react-native-storybook-loader": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.12",
     "react-test-renderer": "^16.8.4",
@@ -160,5 +163,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
