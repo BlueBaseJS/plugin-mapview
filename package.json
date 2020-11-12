@@ -92,7 +92,7 @@
     "@bluebase/core": "^4.0.0-aplha.17",
     "@bluebase/storybook-addon": "^3.0.0",
     "@blueeast/tslint-config-blueeast": "^0.7.0",
-    "@emotion/core": "^10.0.7",
+    "@emotion/core": "^11.0.0",
     "@emotion/styled": "^10.0.10",
     "@storybook/addon-a11y": "^5.0.8",
     "@storybook/addon-actions": "^5.0.8",
