@@ -149,10 +149,6 @@
     "typedoc": "^0.14.2",
     "typescript": "3.3.3333"
   },
-  "peerDependencies": {
-    "@bluebase/core": "^4.*",
-    "react": "^16.*"
-  },
   "prettier": {
     "singleQuote": true,
     "useTabs": true,
